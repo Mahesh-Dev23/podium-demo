@@ -1,0 +1,49 @@
+ {"selectEventType" : [
+     
+    {"AGM" : [{ "type": "SingleVideo", "title": "Welcome Screen", "time": 5, "speakers": [], "source":""}, 
+    { "type": "SingleVideo", "title": "Intro", "time": 5, "speakers": [], "source":""},
+    { "type": "SingleVideo", "title": "Chairman's Speech", "time": 15, "speakers": [], "source":""},
+    { "type": "Presentation", "title": "Presentation", "time": 10, "speakers": [], "source":""},
+    { "type": "Multiscreen", "title": "Q&A Session", "time": 10, "speakers": [], "source":""},
+    { "type": "SingleVideo", "title": "Thank You", "time": 5, "speakers": [], "source":""}
+    ]},
+
+    { "Interview" : [
+        { "type": "SingleVideo", "title": "Welcome Screen", "time": 5, "speakers": [], "source":""}, 
+        { "type": "TwoVideos", "title": "Interview", "time": 20, "speakers": [], "source":""},
+        { "type": "SingleVideo", "title": "Thank You", "time": 5, "speakers": [], "source":""}
+    ]},        
+
+    { "GroupDiscussion" : [
+        { "type": "SingleVideo", "title": "Welcome Screen", "time": 5, "speakers": [], "source":""}, 
+        { "type": "Multiscreen", "title": "Interview", "time": 20, "speakers": [], "source":""},
+        { "type": "SingleVideo", "title": "Thank You", "time": 5, "speakers": [], "source":""}
+    ]}, 
+
+    { "TownHall" : [
+        { "type": "SingleVideo", "title": "Welcome Screen", "time": 5, "speakers": [], "source":""}, 
+        { "type": "Multiscreen", "title": "Interview", "time": 20, "speakers": [], "source":""},
+        { "type": "Multiscreen", "title": "Q&A Session", "time": 10, "speakers": [], "source":""},
+        { "type": "SingleVideo", "title": "Thank You", "time": 5, "speakers": [], "source":""}
+    ]},     
+
+    { "Classroom" : [
+        { "type": "SingleVideo", "title": "Welcome Screen", "time": 5, "speakers": [], "source":""}, 
+        { "type": "Multiscreen", "title": "Interview", "time": 20, "speakers": [], "source":""},
+        { "type": "Multiscreen", "title": "Q&A Session", "time": 10, "speakers": [], "source":""},
+        { "type": "SingleVideo", "title": "Thank You", "time": 5, "speakers": [], "source":""}
+    ]}, 
+    {"QandA" : [
+        { "type": "SingleVideo", "title": "Welcome Screen", "time": 5, "speakers": [], "source":""}, 
+        { "type": "Multiscreen", "title": "Interview", "time": 20, "speakers": [], "source":""},
+        { "type": "Multiscreen", "title": "Q&A Session", "time": 10, "speakers": [], "source":""},
+        { "type": "SingleVideo", "title": "Thank You", "time": 5, "speakers": [], "source":""}
+    ]},
+    { "other" : [
+        { "type": "SingleVideo", "title": "Welcome Screen", "time": 5, "speakers": [], "source":""}, 
+        { "type": "SingleVideo", "title": "Intro", "time": 5, "speakers": [], "source":""},
+        { "type": "SingleVideo", "title": "Chairman's Speech", "time": 15, "speakers": [], "source":""},
+        { "type": "Multiscreen", "title": "Q&A Session", "time": 10, "speakers": [], "source":""},
+        { "type": "SingleVideo", "title": "Thank You", "time": 5, "speakers": [], "source":""}
+    ]}   
+ ]}

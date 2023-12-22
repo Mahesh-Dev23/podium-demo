@@ -1,0 +1,15 @@
+{   
+    "olive":{ "branding1": "#5C9533", "branding2": "#9DBC30", "branding3": "#346C82", "brandingDark": "#0A232C", "brandingLight": "#DEECAD"},
+    "olive2":{ "branding1": "#C7CF5D", "branding2": "#90B052", "branding3": "#D5C152", "brandingDark": "#242D12", "brandingLight": "#F4F2E4"},
+    "nightSky":{ "branding1": "#1A1A90", "branding2": "#440C6F", "branding3": "#113984", "brandingDark": "#15071F", "brandingLight": "#4679D6"},
+    "scarlet":{ "branding1": "240,73,47", "branding2": "238,108,38", "branding3": "144,20,53", "brandingDark": "36,7,5", "brandingLight": "250,236,242"},
+    "coffee":{ "branding1": "#D15145", "branding2": "#EE6C26", "branding3": "#A53867", "brandingDark": "#2D1B12", "brandingLight": "#F4E4EB"},
+    "lemon":{ "branding1": "#ECDF57", "branding2": "#E9B83E", "branding3": "#C8D959", "brandingDark": "#2F340E", "brandingLight": "#FDFBF7"},
+    "orange":{ "branding1": "251, 153, 2", "branding2": "52, 123, 152", "branding3": "68, 36, 214", "brandingDark": "17, 9, 52", "brandingLight": "212, 237, 247"}
+
+
+
+
+
+
+}

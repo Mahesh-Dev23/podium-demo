@@ -1,0 +1,213 @@
+.slideControl{
+  
+  display: grid;
+  align-items: center stretch;
+  justify-content: stretch;
+  grid-template-rows: 95% 5% ;
+  border: 0px solid pink;
+  gap: 10px;
+}
+.sliderMain{
+  width: 100vw;
+  
+  display: grid;
+  align-items: center ;
+  justify-content: center stretch;
+  justify-self: stretch;
+  border: 0px solid green;
+  gap: 10px;
+  background: rgba(rgba(15, 15, 15, .8));
+}
+.silderContainer{
+    
+    display:grid;
+    
+    padding: 0;
+    /* align-items: center ;
+    justify-content: center ; */
+    border: 0px solid yellow;
+    gap: 5px;
+}
+.slide{
+    /* height: 50vh; */
+    padding: 10px;
+    padding-top: 20px;
+    display: grid; 
+    gap: 10px;
+    justify-content: center stretch;
+    align-items: center;
+    /* background: rgba(255, 255, 255, 0.3); */
+    background: rgba(var(--podium1), .5);
+    border: 1px solid rgba(var(--podium2), .1);
+    overflow: hidden;
+    border-radius: 10px;
+}    
+#showDesign{
+  position: relative;
+  height: 65vh;
+  margin: 0 auto;
+  aspect-ratio: 16/9;
+  display: grid;
+  justify-content: start stretch;
+  align-items: start stretch;
+  overflow: hidden;
+  /* background: rgba(255, 255, 255, 0.3); */
+  border: 1px solid rgba(var(--podium2), .1);
+}
+
+.slideTitle{
+  /* align-self: stretch; */
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  justify-content: center stretch;
+  align-items: center stretch;
+  padding-left: 15px;
+  transition-duration: .5s;
+  background: rgba(255, 255, 255, 0.3);
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.slideTitle:hover{
+  /* border-bottom:1px solid rgba(var(--podium2), 1); */
+  background: rgba(255, 255, 255, 1);
+}
+.slideTitle p{
+  color: rgba(0, 0, 0, 0.4);
+}
+.slideTitle p span{
+  color:rgba(var(--podium2), 1);
+}
+.userTitle{
+  justify-content:start; 
+  align-self:stretch;
+  padding: 10px;
+}
+.userTitleSelected{
+  justify-content:start; 
+  align-self:stretch;
+  padding: 10px;
+  opacity: .5;
+}
+.slideUser{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+  justify-content: start stretch;
+  gap:10px;
+}
+.slideUser p{
+  margin: 0;
+  text-align: left;
+}
+.user{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(var(--podium1), .7);
+  border: 2px solid rgba(255, 255, 255, 1);
+  color: white;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .5s;
+}
+.user:hover{
+  background: rgba(var(--podium2), 1);
+}
+.userSelected{
+  background: rgba(var(--podium2), .7);
+}
+.user svg{
+  margin-top: 0px;
+  font-size: 1.2rem;
+}
+.btn-SlideEdit{
+  color:rgba(var(255,255,255), 1);
+  background: rgba(var(--podium1), 1);
+  /* padding: 8px; */
+  border-radius: 0px;
+  display: grid;
+  align-items: center stretch;
+  justify-content: center stretch;
+}
+.slideEventFlow{
+  border: 0px solid purple;
+  height: 85vh;
+  padding: 0;
+}
+.sliderPrev, .sliderNext{
+    cursor: pointer;
+    /* width: 40px;
+    height: 40px; */
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: rgba(var(--podium1), 0.3);
+    color: white;
+    transition-duration: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 40vh; */
+     /*position: absolute;
+    top: 50%;
+    transform: translateY(-50%); */
+  }
+.sliderPrev:hover, .sliderNext:hover{
+    
+    background: rgba(var(--podium1), 0.7);
+  }
+
+.sliderBar{
+  width: auto;
+  margin:auto;
+  display: grid;
+  gap: 0px;
+  background:rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  border-radius: 10px;
+}  
+.sliderdots{
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgba(var(--podium4), 1);
+  color: rgba(var(--podium2), 1);
+  transition-duration: .5s;
+  display: grid;
+  /* align-items: center stretch;
+  justify-content: center stretch; */
+}
+.sliderdots:hover{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgba(var(--podium1), .8);
+  color: rgba(var(--podium2), 1);;
+  transition-duration: .5ms;
+}
+.sliderdots p{
+  margin: 0;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  /* color: white; */
+}
+
+.slide h4{
+  text-transform: uppercase;
+  border-bottom: 1px solid #c0c0c0;
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 30px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  color: green;
+}
+
+.slide h4 span{
+  text-transform: capitalize;
+  color: #777;
+}

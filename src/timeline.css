@@ -1,0 +1,30 @@
+.timeLine{
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    margin: 20px auto;
+  }
+  .stepblock{
+    width:6vw;
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 0px;
+    justify-content: start;
+    align-items: center;
+  }
+  .stepRound{
+    width: 3vw;
+    height: 3vw;
+    background: white;
+    border-radius: 50%;
+    
+    line-height: 3vw;
+    color: white;
+  }
+  .stepline{
+    height: 5px;
+    width: calc(3vw + 2px);
+    background: white;
+    display: block;
+    content: none;
+    margin-left: -1px;
+  }
