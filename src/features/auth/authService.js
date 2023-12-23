@@ -1,7 +1,7 @@
 import axios from 'axios'
 // import {setNewUser} from './authSlice'
 
-const API_URL = '/api/users/'
+const API_URL = 'https://podium-backend.vercel.app/api/users/'
 
 const register = async (userData) =>{
     //console.log("registering")
