@@ -102,7 +102,7 @@ const HostView = () => {
                 </div>
                 
                 
-                <MessageStack eventData={eventData} user={user} />
+                {/* <MessageStack eventData={eventData} user={user} /> */}
                 
             </div>
             

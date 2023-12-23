@@ -129,9 +129,9 @@ function Login() {
                     
                 </div>
             </form>
-            {/* <Itext 
-                text="This app is developed for the desktop use and best viewed on Chrome Browser with 1920 x 1080 resolution."
-            /> */}
+            <Itext 
+                text="You can register with email and password of your choice with admin checked so you can create events. Or you can login as email: 'durgesh-shah@gmail.com' and pass: 'ds1234'"
+            />
            
         </div>
         

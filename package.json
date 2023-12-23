@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "1.10.0",
-  "proxy": "http://localhost:5000",
+  "proxy": "https://podium-backend.vercel.app",
   "description": "Do it yourself - Vistual Meetings",
   "private": true,
   "dependencies": {

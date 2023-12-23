@@ -15,8 +15,8 @@ const PodiumPackage = () => {
   return (
     <div className='podiumPackage'>
         <Img src="podium-logo-plain.png" alt="podium-logo"/>
-        <p>{packageJson?.package.description}</p>
-        <p className='itext'>{packageJson?.package.version}</p>
+        {/* <p>{packageJson?.package.description}</p>
+        <p className='itext'>{packageJson?.package.version}</p> */}
     </div>
 )
 }
