@@ -2,6 +2,7 @@
   "name": "frontend",
   "version": "1.10.0",
   "proxy": "https://podium-backend.vercel.app",
+  "homepage": "https://github.com/Mahesh-Dev23/podium-demo.git",
   "description": "Do it yourself - Vistual Meetings",
   "private": true,
   "dependencies": {

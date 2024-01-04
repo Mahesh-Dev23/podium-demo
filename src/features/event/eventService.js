@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'https://podium-backend.vercel.app/api/events/'
+const API_URL = '/api/events/'
 
 // create an event 
 const createEvent = async ( eventData, token)=>{

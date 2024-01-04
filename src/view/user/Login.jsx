@@ -50,7 +50,7 @@ function Login() {
         }
 
         if(isSuccess || user){
-            //console.log("success")
+            console.log("success")
             
             dispatch(getAllUsers())
             if(!user)return

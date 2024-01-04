@@ -4,10 +4,9 @@ import {ToastContainer} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 import { useSelector, useDispatch } from 'react-redux'
-import { setLogout, setMessageStack, setSocketData, setEventRun } from './features/ui/uiSlice'
+import { setLogout,  setEventRun } from './features/ui/uiSlice'
 
-import { useSetEvent } from './hooks/useSetEvent'
-import { eventForRun, editEvent } from './features/event/eventSlice'
+
 
 import './App.css';
 import './elements.css'
@@ -40,7 +39,7 @@ import Step1_login from './view/Steps/Step1_login'
 
 
 function App() {
-  console.log("App")
+  // console.log("App")
   
 
   const dispatch = useDispatch()

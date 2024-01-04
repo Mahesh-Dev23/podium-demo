@@ -8,7 +8,8 @@ import { useSocket } from '../../hooks/useSocket'
 import { setMessageStack } from '../../features/ui/uiSlice'
 
 import { io } from "socket.io-client"
-const socket = io(process.env.backEnd_Url)
+// const socket = io(process.env.backEnd_Url)
+const socket = io('https://podium-backend.vercel.app')
 
 const Logout = () => {
     const { packageJson, logout } = useSelector( state => state.ui )

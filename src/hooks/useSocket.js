@@ -3,7 +3,8 @@ import { useSelector } from 'react-redux'
 import updateArray from '../controllers/updateArray'
 
 import { io } from "socket.io-client"
-const socket = io(process.env.backEnd_Url)
+// const socket = io(process.env.backEnd_Url)
+const socket = io('https://podium-backend.vercel.app')
 
 export const useSocket = () => {
     // console.log("useSocket")

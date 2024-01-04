@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Mahesh-Dev23/podium-demo.git/static/css/main.efc27918.css",
+    "main.js": "/Mahesh-Dev23/podium-demo.git/static/js/main.6896861c.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/Mahesh-Dev23/podium-demo.git/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/register.png": "/Mahesh-Dev23/podium-demo.git/static/media/register.32aa441ca65ddf580d52.png",
+    "static/media/user.png": "/Mahesh-Dev23/podium-demo.git/static/media/user.c4915b07e5ee4934801b.png",
+    "static/media/event.png": "/Mahesh-Dev23/podium-demo.git/static/media/event.7ad8afb9395f42ac6179.png",
+    "static/media/login.png": "/Mahesh-Dev23/podium-demo.git/static/media/login.50697c160d4fdf1e62b7.png",
+    "index.html": "/Mahesh-Dev23/podium-demo.git/index.html",
+    "main.efc27918.css.map": "/Mahesh-Dev23/podium-demo.git/static/css/main.efc27918.css.map",
+    "main.6896861c.js.map": "/Mahesh-Dev23/podium-demo.git/static/js/main.6896861c.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/Mahesh-Dev23/podium-demo.git/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efc27918.css",
+    "static/js/main.6896861c.js"
+  ]
+}
