@@ -1,7 +1,11 @@
 import axios from 'axios'
 // import {setNewUser} from './authSlice'
+import dotenv from 'dotenv'
+dotenv.config()
 
 const API_URL = '/api/users/'
+
+const headers = { Authorization: 'Bearer ' + process.env.vercelTokenForntEnd }
 
 const register = async (userData) =>{
     //console.log("registering")
@@ -17,7 +21,7 @@ const register = async (userData) =>{
 // login User
 const login = async (userData) =>{
     // console.log(userData)
-    const response = await axios.post(API_URL + 'login' , userData)
+    const response = await axios.post(API_URL + 'login' , userData, headers)
 
     if(response.data){
         //localStorage.setItem('user', JSON.stringify(response.data))
