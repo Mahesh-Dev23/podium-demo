@@ -3,7 +3,7 @@ import axios from 'axios'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const API_URL = '/api/users/'
+const API_URL = 'https://podium-backend.vercel.app/api/users/'
 
 const headers = { Authorization: 'Bearer ' + process.env.vercelTokenForntEnd }
 
